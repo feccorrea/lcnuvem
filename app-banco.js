@@ -2,27 +2,26 @@ var desenvolvimento = false;
 
 var configuracoes = {
     producao: {
-        server: "testexyzwtrtwr.database.windows.net",
-        user: "adminbandtec",
-        password: "b@ndtec2018",
-        database: "gf2018",
+        server: "sdn.database.windows.net",
+        user: "feccorrea",
+        password: "podepa1@",
+        database: "bdn",
         options: {
             encrypt: true
         },
         pool: {
             max: 4,
             min: 1,
-            idleTimeoutMillis: 30000,
-            connectionTimeout: 5000
+            idleTimeoutMillis: 30000
         }
     },
     desenvolvimento: {
-        server: "BASETESTE.database.windows.net",
-        user: "usuariotestes",
-        password: "senhatestes",
-        database: "BASETESTE",
+        server: "sdn.database.windows.net",
+        user: "",
+        password: "",
+        database: "bdn",
         options: {
-            encrypt: true
+            encrypt: false
         }
     }
 }
